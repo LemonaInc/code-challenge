@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 // Import the JSON file
-import * as jsonData from 'assets/app.json';
-declare module "*.json" {
-    const value: any;
-    export default value;
-}
+declare var require: any;
+var jsonData = require('assets/app.json');
 
 // Declare JSON constants
 // const backButtonText = jsonData.backButtonText;
