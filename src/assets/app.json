@@ -7,6 +7,7 @@
   "loadFailedAlert": "Oh no! this video failed to load, please try again!",
   "appDescription": "Welcome to my video player",
   "playVideoButton": "Play Video",
+  "skipVideoButton": "Skip Video",
   "paragraph": "Hello this is a sample paragraph",
   "videoURL": "/assets/video/Everything-is-right.mp4",
   "backgroundImageNight": "/assets/img/seattle-night.jpg",

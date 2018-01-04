@@ -26,5 +26,9 @@ export class AppComponent {
   appParagraphText = jsonData.paragraph;
   backButtonText =  jsonData.backButton;
   playVideoButtonText = jsonData.playVideoButton;
+  skipVideoButtonText = jsonData.skipVideoButton;
   backgroundImageNight = jsonData.backgroundImageNight;
+  videoURL = jsonData.videoURL;
 }
+
+console.log(jsonData.videoURL)

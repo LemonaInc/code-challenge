@@ -16,6 +16,19 @@ body {
 .logo {
 }
 
+.videoContainer {
+width: 100%;
+height: 100%;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ overflow: auto;
+  background-color: none;
+  background-repeat: no-repeat;
+
+}
+
 h1 {
   font-size: 100px;
   color: #2B2D2D;
@@ -59,11 +72,11 @@ button {
 }
 
 
-.backbutton {
+.regularButton {
   height:80px;
     width: 228px;
     border: solid;
-    background-color: #2ABCD0;
+    background-color: #2B2D2D;
     color: #fff;
     font-size: 15px;
     text-align: center;
@@ -75,4 +88,5 @@ button {
     right:0;
     font-size: 20px;
     border-color: #fff;
+    position: fixed;
 }
