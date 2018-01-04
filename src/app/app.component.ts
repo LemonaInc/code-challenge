@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  appTitleName = 'Video Player';
+  appDescriptionText = "Welcome to the video player";
+  backButtonText = "Back";
+  playVideoButtonText = "Play Video";
 }
