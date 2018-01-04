@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
+
 body {
   font-family: sans-serif;
   font-size: 12px;
@@ -44,7 +45,7 @@ button {
 .videobutton {
   height:80px;
   	width: 228px;
-  	border: none;
+    border: solid;
   	background-color: #2ABCD0;
   	color: #fff;
   	font-size: 15px;
@@ -61,7 +62,7 @@ button {
 .backbutton {
   height:80px;
     width: 228px;
-    border: none;
+    border: solid;
     background-color: #2ABCD0;
     color: #fff;
     font-size: 15px;
@@ -73,5 +74,5 @@ button {
     bottom:0;
     right:0;
     font-size: 20px;
-
+    border-color: #fff;
 }

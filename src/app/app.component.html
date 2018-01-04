@@ -1,15 +1,40 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<!-- Import the Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+<style>
+.videoContainer {
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+}
+</style>
+
 <div>
   <h3>
-     {{ appTitleName }}
+     {{appTitleName}}
   </h3>
+
+<div class="videoContainer">
+
+</div>
+
+<!-- <img [attr.src]="backgroundImageNight" width="1920" height="1080" /> -->
+
 
   <!-- <img width="300" alt="Logo" class="logo"> -->
 </div>
 <h3>{{appDescriptionText}}</h3>
 
-<button class="backbutton"> {{ backButtonText }}</button>
-<button class="videobutton"> {{ playVideoButtonText }}</button>
+
+
+
+<button class="backbutton"> {{backButtonText}}</button>
+<button class="videobutton"> {{playVideoButtonText}}</button>
+
+
+<!-- <li ng-repeat="todo in todos">
+     {{todo.text}} - <em>{{todo.done}}</em>
+
+ <img ng-src="{{test.challenge.videoFile}}"/> -->
 
 <ul>
   <li>
