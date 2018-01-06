@@ -1,34 +1,15 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-// Import the JSON file
-// import * as jsonData from 'assets/app.json';
-// declare module "*.json" {
-//     const value: any;
-//     export default value;
-// }
-
-// Declare JSON constants
-// const backButtonText = jsonData.backButtonText;
-//
-// console.log(backButtonText);
+import { Component, OnInit } from '@angular/core';
+// import * as Chartist from 'chartist';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: ['./dashboard.component.css']
 })
+export class DashboardComponent implements OnInit {
 
-export class DashboardComponent {
-  // Declare the JSON data names, image and video url's.
-  // appTitleName = jsonData.appTitleName ;
-  // appDescriptionText = jsonData.appDescription;
-  // appParagraphText = jsonData.paragraph;
-  // backButtonText =  jsonData.backButton;
-  // playVideoButtonText = jsonData.playVideoButton;
-  // skipVideoButtonText = jsonData.skipVideoButton;
-  // backgroundImageNight = jsonData.backgroundImageNight;
-  // videoURL = jsonData.videoURL;
+  ngOnInit() {
+
+  }
+
 }
-
-// console.log(jsonData.videoURL)
