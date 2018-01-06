@@ -1,14 +1,48 @@
 h2 {
+z-index: 999;
 color: #fff;
+font-size: 60px;
+
 }
 
 h4 {
+  z-index: 999;
   color: #fff;
 }
 
 h3 {
+  z-index: 999;
   color: #fff;
+  font-size: 40px;
 }
+
+p {
+  z-index: 999;
+  color: #fff;
+  font-size: 22px;
+  background-color: #2B2D2D;
+  border-radius: 15px;
+  border-top: solid;
+  border-bottom: solid;
+  border-top-color: #2B2D2D;
+  border-bottom-color: #2B2D2D;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-top-width: 10px;
+  text-align: center;
+}
+
+
+/* h3 {
+  z-index: 999;
+  position: fixed;
+  color: #fff;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 50px;
+  border-radius: 15px;
+} */
 
 /* button {
   color: #fff;

@@ -28,6 +28,6 @@ ngOnInit() {
   appParagraphText = jsonData.paragraph;
   backButtonText =  jsonData.backButton;
   playVideoButton = jsonData.playVideoButton;
-  backgroundImageNight = jsonData.backgroundImageNight;
+  backgroundImage = jsonData.backgroundImage;
   videoURL = jsonData.videoURL;
 }
