@@ -1,0 +1,126 @@
+/* Import fonts from Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #2B2D2D;
+  background-image: url(/assets/img/seattle-night.jpg);
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+}
+
+.videoContainer {
+ width: 1920px;
+ height: 1080px;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ overflow: auto;
+ background-repeat: no-repeat;
+ position: fixed;
+}
+
+nav {
+  background-color: #fff;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #fff;
+  position: fixed;
+  border-bottom: solid;
+  border-bottom-color: #fff;
+  border-top: solid;
+  border-top-color: #fff;
+  z-index: 9999;
+}
+
+h1 {
+  font-size: 100px;
+  color: #2B2D2D;
+  text-align: center;
+}
+h2 {
+  font-size: 80px;
+  color: #2B2D2D;
+  text-align: center;
+}
+
+h3 {
+  font-size: 60px;
+  color: #2B2D2D;
+  text-align: center;
+}
+
+h4 {
+  font-size: 40px;
+  color: #2B2D2D;
+  text-align: center;
+}
+
+button {
+}
+
+/* Video Button */
+.videobutton {
+  height:80px;
+  	width: 228px;
+    border: solid;
+  	background-color: #2ABCD0;
+  	color: #fff;
+  	font-size: 15px;
+  	text-align: center;
+  	border-radius: 20px;
+  	margin-bottom: 20px;
+  	margin-right: 20px;
+  	position:center;
+  	bottom:100px;
+    font-size: 20px;
+    z-index: 9999;
+
+}
+
+/* Skip Video Button */
+.skipVideoButton {
+    height:80px;
+    width: 228px;
+    /* border: solid; */
+    background-color: #2B2D2D;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    border-color: #fff;
+    position: fixed;
+    border-bottom: solid;
+    border-bottom-color: #1FBCD1;
+    z-index: 9999;
+}
+
+/* Main Buttons */
+.mainButton {
+  color: #fff;
+  height: 46px;
+  font-size: 15px;
+  background-color: #2B2D2D;
+  border-radius: 15px;
+  border-bottom: solid;
+  border-bottom-color: #1FBCD1;
+  z-index: 9999;
+
+}

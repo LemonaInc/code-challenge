@@ -2,8 +2,8 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
 <!-- Skip Video Button -->
-<button routerLink="/dashboard" class="regularButton"> {{skipVideoButtonText}}</button>
+<button routerLink="/dashboard" class="skipVideoButton"> {{skipVideoButtonText}}</button>
 
   <!-- Load in the video from the url defined in the JSON file. -->
-<video class="videoContainer" autoplay="autoplay" loop="loop" controls style="margin-top: 50px; margin-bottom: 20px;">
+<video class="videoContainer" class="videoContainer" autoplay="autoplay" loop="loop" controls >
 <source src="{{videoURL}}" type="video/mp4">

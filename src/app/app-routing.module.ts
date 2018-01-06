@@ -1,18 +1,34 @@
-import { NgModule }  from '@angular/core';
+import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { PageNotFoundComponent }  from './not-found.component';
+// Import the dashboard component
+import { DashboardComponent } from './dashboard/dashboard.component'
+// Import the video component
+import { VideoComponent } from './video/video.component'
 
-import { DashboardComponent }   from './dashboard/dashboard.component';
-
-
-export const routes: Routes = [
-  { path: 'dashboard',  component: DashboardComponent }
-  // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+// Define the app routes
+const appRoutes: Routes = [
+  // { path: '**', component: PageNotFoundComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'video', component: VideoComponent },
+  // If there is no path then redirect to the video page
+  { path: '',   redirectTo: '/video', pathMatch: 'full' }
 ];
 
-
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ],
-})
+  imports: [
 
-export class AppRoutingModule {}
+    RouterModule.forRoot(
+      appRoutes,
+      {
+        enableTracing: true,
+      }
+    )
+  ],
+  exports: [
+    RouterModule
+  ],
+  providers: [
+  ]
+})
+export class AppRoutingModule { }

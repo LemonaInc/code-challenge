@@ -7,5 +7,5 @@ body {
   color: #2B2D2D;
   position:fixed;
   background-color: #2B2D2D;
-  background-image: linear-gradient(to right, #00E39F, #00C4E1);
+  /* background-image: linear-gradient(to right, #00E39F, #00C4E1); */
 }

@@ -1,14 +1,11 @@
 <!-- Import the Material Icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
-<!-- Skip Video Button -->
-<button routerLink="/dashboard" class="regularButton"> {{skipVideoButtonText}}</button>
-<!-- <a routerLink="/dashboard"><button> Add Customer</button></a> -->
-<a routerLink="/dashboard"><button>Go To</button>
+  <!-- <h1 class="title">Video Player</h1> -->
+  <nav>
+    <button routerLink="/video" class="mainButton" routerLinkActive="active">{{playVideoButton}}</button>
+    <button routerLink="/dashboard"  class="mainButton" routerLinkActive="active">{{dashboard}}</button>
+  </nav>
 
-  <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-
-
-  <!-- Load in the video from the url defined in the JSON file. -->
-<video class="videoContainer" autoplay="autoplay" loop="loop" controls style="margin-top: 50px; margin-bottom: 20px;">
-<source src="{{videoURL}}" type="video/mp4">
+  <router-outlet>
+  </router-outlet>
