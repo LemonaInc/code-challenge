@@ -30,4 +30,5 @@ ngOnInit() {
   playVideoButton = jsonData.playVideoButton;
   backgroundImage = jsonData.backgroundImage;
   videoURL = jsonData.videoURL;
+  videoSoundFX = jsonData.videoSoundFX;
 }

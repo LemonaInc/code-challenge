@@ -1,18 +1,19 @@
 h2 {
 z-index: 999;
-color: #fff;
+color: #2B2D2D;
 font-size: 60px;
-
+font-family: 'Ubuntu', sans-serif;
 }
 
 h4 {
   z-index: 999;
   color: #fff;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
   z-index: 999;
-  color: #fff;
+  color: #2B2D2D;
   font-size: 40px;
 }
 
@@ -31,6 +32,33 @@ p {
   border-right-width: 10px;
   border-top-width: 10px;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* .audioTest {
+color: #2ABCD0;
+background-color: #2ABCD0;
+} */
+
+.playAudioButton {
+  height:80px;
+  width: 228px;
+  /* border: solid; */
+  background-color: #2B2D2D;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  position:fixed;
+  bottom:0;
+  right:0;
+  border-color: #fff;
+  position: fixed;
+  border-bottom: solid;
+  border-bottom-color: #1FBCD1;
+  z-index: 9999;
 }
 
 

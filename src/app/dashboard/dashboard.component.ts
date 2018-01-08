@@ -10,9 +10,28 @@ var jsonData = require('assets/app.json');
 })
 export class DashboardComponent implements OnInit {
   menuItems: any[];
-  constructor() { }
-ngOnInit() {
+  constructor() {
+  }
+
+  // Play video audio when the playback button is clicked
+  // Create audio and playback
+
+ $scope.callAudioPlayback = function() {
+   var playVideoSoundFX = new Audio();
+   var checkAudioBool = true;
+
+     if (checkAudioBool === true && playVideoSoundFX.paused) {
+      playVideoSoundFX.src = "/assets/audio/Ocean_Waves-soundfx.mp3";
+      playVideoSoundFX.load();
+      playVideoSoundFX.loop = false;
+      playVideoSoundFX.play();
+      return;
+  } else {
+  }
 }
+
+ngOnInit() {
+};
 
   // Declare the JSON data names, image and video url's.
   videoDashboardTitle = jsonData.videoDashboardTitle;
@@ -24,4 +43,5 @@ ngOnInit() {
   skipVideoButtonText = jsonData.skipVideoButton;
   backgroundImage = jsonData.backgroundImage;
   videoURL = jsonData.videoURL;
+  videoSoundFX = jsonData.videoSoundFX;
 }

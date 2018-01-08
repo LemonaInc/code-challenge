@@ -1,5 +1,10 @@
-<h2>{{ videoDashboardTitle }}</h2>
+<!-- Import the Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
+
+	<!-- Add in the dashboard title -->
+ <h2>{{ videoDashboardTitle }}</h2>
 
     <!-- Add in the video title -->
 		<h3 class="title">{{appTitleName}}</h3>
@@ -7,6 +12,16 @@
     <!-- add the video paragraph -->
 		<p class="title">{{appParagraphText}}</p>
 
-		<!-- add the the buttons -->
+    <!-- Play the video audio -->
+		<button (click)="callAudioPlayback()" class="material-icons playAudioButton">play_circle_outline</button>
+		<!-- <button src="{{videoSoundFX}}" class="material-icons playAudioButton">pause</button>
+		<source src="{{videoSoundFX}}" type="audio/mp3">
+		</button> -->
+
+		<audio controls class="audioTest">
+	  <source src="{{videoSoundFX}}" type="audio/mp3">
+	 </audio>
+
+
 
 		<!-- <button class="title">Audio</button> -->

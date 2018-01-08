@@ -29,6 +29,7 @@
     "@angular/upgrade": "~5.0.0",
     "angular-in-memory-web-api": "~0.5.0",
     "core-js": "^2.4.1",
+    "ng-audio": "0.0.2",
     "rxjs": "^5.5.0",
     "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.4"

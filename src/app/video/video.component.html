@@ -1,6 +1,8 @@
 <!-- Import the Material Icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
 <!-- Skip Video Button -->
 <button routerLink="/dashboard" class="skipVideoButton"> {{skipVideoButtonText}}</button>
 
@@ -8,4 +10,5 @@
 
   <!-- Load in the video from the url defined in the JSON file. -->
 <video class="videoContainer" class="videoContainer" autoplay="autoplay" loop="loop" controls >
+<!-- Load in the video URL from the JSON file -->
 <source src="{{videoURL}}" type="video/mp4">

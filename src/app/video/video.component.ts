@@ -26,4 +26,5 @@ ngOnInit() {
   skipVideoButtonText = jsonData.skipVideoButton;
   backgroundImage = jsonData.backgroundImage;
   videoURL = jsonData.videoURL;
+  videoSoundFX = jsonData.videoSoundFX;
 }
