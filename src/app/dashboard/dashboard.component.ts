@@ -16,7 +16,7 @@ export class DashboardComponent implements OnInit {
   // Play video audio when the playback button is clicked
   // Create audio and playback
 
- $scope.callAudioPlayback = function() {
+  callAudioPlayback() {
    var playVideoSoundFX = new Audio();
    var checkAudioBool = true;
 
@@ -26,9 +26,9 @@ export class DashboardComponent implements OnInit {
       playVideoSoundFX.loop = false;
       playVideoSoundFX.play();
       return;
-  } else {
   }
-}
+
+};
 
 ngOnInit() {
 };
