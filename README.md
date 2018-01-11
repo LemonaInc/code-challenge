@@ -1,5 +1,5 @@
 # code-challenge
-Welcome to my code challenge, to launch and view this Angualar.JS based project please follow these commands in your lunix shell of your choice.
+Welcome to my code challenge, to launch and view this Angular.JS based project please follow these commands in your lunix shell of your choice.
 
 # Get setup with my Angular Project
 Step 1: Make sure you have the Angular CLI installed, if you dont please go here: https://www.npmjs.com/package/angular-cli/tutorial.
